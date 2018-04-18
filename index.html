@@ -7,5 +7,7 @@
     </head>
     <div id="particles-js" style="background:#000000"></div>
     <script>
-        particlesJS("particles-js","https://raw.githubusercontent.com/vilP1l/ghpages/master/particles.json");
+        particlesJS.load('particles-js', 'particles.json', function() {
+  console.log('callback - particles.js config loaded');
+});
     </script>
