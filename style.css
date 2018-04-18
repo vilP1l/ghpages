@@ -1,16 +1,15 @@
-#particles-js {
-  background: cornflowerblue;
-}
 #vilp1l {
     position: relative;
-    color: #fff;
     z-index: 9999;
     margin: auto;
     text-align: center;
     top: 30%;
     font-size: 85px;
     font-family: 'Gugi', cursive;
-    width: 200px;
+    width: 370px;
     height: 150px;
-    background: #000000;
+    background-color: #ffffff;
+    opacity: 0.7;
+    border-radius: 7px;
+    color:#474747;
 }
