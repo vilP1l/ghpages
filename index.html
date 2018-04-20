@@ -1,15 +1,25 @@
 <head>
     <meta name="Title" content="vilP1l">
     <meta name="description" content="Izza my website">
-    <meta name="keywords" content="vil,vilP1l,vilpil,vilp1ldev">
     <meta name="author" content="vilP1l">
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bttn.css/0.2.4/bttn.min.css" rel="stylesheet">
 </head>
-<div id="particles-js"></div>
-<div id="overlay">vilP1l</div>
+<body>
+    <div id="particles-js"></div>
+    <div id="overlay">vilP1l
+        <button id="navItem" class="ui black button">Github</button>
+        <button id="navItem2" class="ui blue button">Twitter</button>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+<link href="button.min.css" rel="stylesheet">
 <script>
     particlesJS.load('particles-js', 'particles.json');
+    document.getElementById("navItem").onclick = function(){
+        window.open("https://github.com/vilp1l")
+    }
+    document.getElementById("navItem2").onclick = function(){
+        window.open("https://twitter.com/vilP1lDev")
+    }
 </script>

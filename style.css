@@ -4,14 +4,13 @@
     top: 30%;
     font-size: 85px;
     font-family: 'Gugi', cursive;
-    /* width: 370px;
-    height: 150px; */
-    margin:0 auto;
+    margin: 0 auto;
     width: 370px;
     background-color: #ffffff;
     opacity: 0.7;
     border-radius: 7px;
     color: #474747;
+    padding-bottom: 40px;
 }
 
 #particles-js {
@@ -22,4 +21,27 @@
     bottom: 0;
     left: 0;
     z-index: 0;
+}
+
+#navItem {
+    margin-bottom: 5px;
+    right: 0;
+    bottom: 0;
+    text-align: left;
+    position: absolute;
+    left: 0px;
+    width: 48%;
+    margin-left: 5px;
+    text-align: center;
+}
+
+#navItem2 {
+    margin-bottom: 5px;
+    right: 0;
+    bottom: 0;
+    text-align: left;
+    position: absolute;
+    width: 48%;
+    margin-left: 5px;
+    text-align: center;
 }
