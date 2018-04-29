@@ -1,16 +1,47 @@
 <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
-<h1>404</h1>
-<p>File not found</p>
+
+<body>
+    <div>
+    <h1>404</h1>
+    <p>File not found</p>
+    <p id="backBtn">vilP1l.co</p>
+    </div>
+</body>
+
 <style>
-h1,p{
-    font-family: 'Do Hyeon', sans-serif;
-    text-align: center;
-    margin: auto;
-}
-h1 {
-    font-size: 150px;
-}
-p {
-    font-size: 30px;
-}
+    h1,p {
+        font-family: 'Do Hyeon', sans-serif;
+        text-align: center;
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 150px;
+    }
+
+    p {
+        font-size: 30px;
+    }
+    body {
+     background: #2c3a51
+    }
+    div {
+        background: white;
+        width: 370px;
+        height: 260px;
+        border-radius: 7px;
+        margin: 0 auto;
+        margin-top: 10%;
+    }
+    #backBtn {
+        font-size: 20px;
+        width: 70px;
+        background: lightgray;
+        border-radius: 7px;
+    }
 </style>
+<script>
+    document.getElementById("backBtn").onclick = function(){
+        window.open("https://vilp1l.co")
+    }
+</script>
