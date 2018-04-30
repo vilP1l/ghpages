@@ -19,11 +19,11 @@
     background: #f7f7f7;
     border-radius: 7px;
     position: absolute;
-    margin: auto;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
+    top: 20%
 }
 
 body {
@@ -38,4 +38,11 @@ h1 {
 p {
     text-align: center;
     font-family: 'Do Hyeon', sans-serif;
+}
+.circ-logo {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 120px;
+    margin-top: 10px;
 }
