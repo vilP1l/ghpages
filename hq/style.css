@@ -14,7 +14,7 @@
 
 .overlay {
     width: 500px;
-    height: 325px;
+    height: 410px;
     margin: 0 auto;
     background: #f7f7f7;
     border-radius: 7px;
@@ -44,5 +44,39 @@ p {
     height: 60px;
     position: absolute;
     left: 120px;
+    margin-top: 10px;
+}
+.overlay2 {
+    width: 850px;
+    height: 1500px;
+    margin: 0 auto;
+    background: #f7f7f7;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 25%
+}
+
+.overlayterms {
+    width: 560px;
+    height: 150px;
+    margin: 0 auto;
+    background: #f7f7f7;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 5%
+}
+.circ-logoterms {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 80px;
     margin-top: 10px;
 }
